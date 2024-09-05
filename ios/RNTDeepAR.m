@@ -8,7 +8,6 @@
 
 #import "RNTDeepAR.h"
 #import "React/UIView+React.h"
-#import <CameraController.h>
 #import <Foundation/Foundation.h>
 
 @implementation RNTDeepAR {
@@ -30,8 +29,7 @@ AVCaptureDevicePosition _cameraPosition;
   [self.deepar initialize];
   self.deepar.delegate = self;
 
-  self.arview = (ARView *)[self.deepar
-      createARViewWithFrame:[UIScreen mainScreen].bounds];
+  self.arview = [self.deepar createARViewWithFrame:[UIScreen mainScreen].bounds];
   [self insertSubview:self.arview atIndex:0];
   self.cameraController = [[CameraController alloc] init];
   self.cameraController.deepAR = self.deepar;

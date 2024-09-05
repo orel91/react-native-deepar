@@ -4,29 +4,37 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Headers/ARView.h</key>
-		<data>
-		5ElQWTotNSvXfLtimdlyvwnJDo0=
-		</data>
 		<key>Headers/CameraController.h</key>
 		<data>
-		S5LLf5ebq82Y1WzB8FOwHi+0g+4=
+		kmKSQkxora6K3hvyNQNWtM7hVBA=
 		</data>
 		<key>Headers/DeepAR.h</key>
 		<data>
-		4nQ/nbTPIOnqrkDLmNkoOYy8Yn0=
+		S+sEb+SbH7BKFmnU5Ss1+xOFnCE=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Mi/L4bH66FzPiZpxN7LzuRoQeXU=
+		DQ51SO18+GSpT16RuvCsuBRP1CQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		MqzRU1N8nKaTEIIXeM6ZNjNMSAM=
+		C2l32fGanfp/FCD/dT7B0OU+gO8=
+		</data>
+		<key>background_blur.deepar</key>
+		<data>
+		InBzBCgik15GrJz9AOuYNmuK+r8=
+		</data>
+		<key>background_replacement.deepar</key>
+		<data>
+		GOf1O0q223sbNJkCeKHdYR7fzbM=
 		</data>
 		<key>bodysegmentation256x160_rec.bin</key>
 		<data>
 		VIjA1iVnWiyWYfxSsVX9al+OHn4=
+		</data>
+		<key>default_envmap.webp</key>
+		<data>
+		87ynbPOjjjwCXXljf0t41gMlfD4=
 		</data>
 		<key>emo.bin</key>
 		<data>
@@ -43,32 +51,39 @@
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Headers/ARView.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			DB9+KXrfyrBCfADZOPcYrdgVSthyIHB5aV3Dx48lMAk=
-			</data>
-		</dict>
 		<key>Headers/CameraController.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Zmsd3LRqIWydLtGZ25aGCGIjgZ8VK83xmlqxVmCJOM0=
+			/c5fDf1nhk5D41Z7s1cUcsRVOLSHen7ltRCTX4UNYaI=
 			</data>
 		</dict>
 		<key>Headers/DeepAR.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			tWryY66a24PJngbQjU9wvM1q5VmmFyh7rF8UqCUFlmQ=
+			eIGE1U/55NdFcy1FJlF82nlg/3/oqa+eI2hILZSOIQg=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/Kp5h56wjjd8biXERZhCD4UU3QDiKcGXD18y36W1o4s=
+			7akjMFlPiQxn0uVIWrLzuqaNxZMb+zrpD2Wj95jZOLw=
+			</data>
+		</dict>
+		<key>background_blur.deepar</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			vC4tN/MYTyL6cHZBNscxXpe1J76SHEOwW5i5rchqJTw=
+			</data>
+		</dict>
+		<key>background_replacement.deepar</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			EjYCrNIb7eRVyLyD+z1oQmp+H6oNYVAY3PI9k2IA01E=
 			</data>
 		</dict>
 		<key>bodysegmentation256x160_rec.bin</key>
@@ -76,6 +91,13 @@
 			<key>hash2</key>
 			<data>
 			CDkNRHEL8Jd/XMNn0s/N5s+iJb36n3/JRAdnQEEIMns=
+			</data>
+		</dict>
+		<key>default_envmap.webp</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			+CLkVaXVo8HVyR2cItPRtRH2RQYvouTIdV1pivArm4A=
 			</data>
 		</dict>
 		<key>emo.bin</key>

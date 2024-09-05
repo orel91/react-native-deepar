@@ -10,17 +10,17 @@
 #define RNTDeepAR_h
 
 #import <AVKit/AVKit.h>
-#import <ARView.h>
 #import <React/RCTComponent.h>
 #import <React/RCTView.h>
+#import "DeepAR/DeepAR.h"
+#import "DeepAR/CameraController.h"
 
-@interface RNTDeepAR
-    : RCTView <ARViewDelegate, AVCaptureVideoDataOutputSampleBufferDelegate>
+@interface RNTDeepAR : RCTView
 
 @property(nonatomic, assign) BOOL flashOn;
 @property(nonatomic, strong) CameraController *cameraController;
 @property(nonatomic, strong) DeepAR *deepar;
-@property(nonatomic, strong) ARView *arview;
+@property(nonatomic, strong) UIView *arview;
 @property(nonatomic, copy) RCTBubblingEventBlock onEventSent;
 @property(nonatomic, copy) NSString *apiKey;
 

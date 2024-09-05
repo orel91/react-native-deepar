@@ -20,6 +20,8 @@
 
 /* Begin PBXFileReference section */
 		134814201AA4EA6300B7C361 /* libDeepar.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libDeepar.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		783DEBBE2C89E56900F052C1 /* RNTDeepAR.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RNTDeepAR.swift; sourceTree = "<group>"; };
+		783DEBBF2C89E5AA00F052C1 /* Deepar-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Deepar-Bridging-Header.h"; sourceTree = "<group>"; };
 		E3B60F132854B1AD00DC30AA /* RNTDeepARViewManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNTDeepARViewManager.m; sourceTree = "<group>"; };
 		E3B60F162854B3CD00DC30AA /* RNTDeepARViewManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNTDeepARViewManager.h; sourceTree = "<group>"; };
 		E3B60F172854B63C00DC30AA /* RNTDeepAR.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNTDeepAR.h; sourceTree = "<group>"; };
@@ -48,6 +50,8 @@
 		58B511D21A9E6C8500147676 = {
 			isa = PBXGroup;
 			children = (
+				783DEBBF2C89E5AA00F052C1 /* Deepar-Bridging-Header.h */,
+				783DEBBE2C89E56900F052C1 /* RNTDeepAR.swift */,
 				E3B60F182854B65200DC30AA /* RNTDeepAR.m */,
 				E3B60F172854B63C00DC30AA /* RNTDeepAR.h */,
 				E3B60F162854B3CD00DC30AA /* RNTDeepARViewManager.h */,
@@ -90,7 +94,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 58B511D61A9E6C8500147676 /* Build configuration list for PBXProject "DeepAR" */;
+			buildConfigurationList = 58B511D61A9E6C8500147676 /* Build configuration list for PBXProject "Deepar" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -261,7 +265,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		58B511D61A9E6C8500147676 /* Build configuration list for PBXProject "DeepAR" */ = {
+		58B511D61A9E6C8500147676 /* Build configuration list for PBXProject "Deepar" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				58B511ED1A9E6C8500147676 /* Debug */,
